@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Hero from "./components/Hero/index";
+import Footer from "./components/Footer/index";
+import Projects from "./components/Projects/index";
+import About from "./components/About/index";
+
+// This is where all of the components will reside
 
 function App() {
+  const sections = ["welcome", "projects", "about me", "contact"];
+  const [currentSection, setCurrentSection] = useState(sections[0]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // can only return one element, but that element can have child elements
+    <div className="main-wrapper">
+      <Hero />
+      <div className="main-section"></div>
     </div>
   );
 }
