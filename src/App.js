@@ -24,7 +24,6 @@ const App = () => {
   return (
     // can only return one element, but that element can have child elements
     <div className="main-wrapper">
-      <h1>Hello world!</h1>
       <Hero
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}

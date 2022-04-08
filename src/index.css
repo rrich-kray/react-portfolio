@@ -61,3 +61,27 @@ Variables
   margin: 0;
   padding: 0;
 }
+
+.hero {
+  width: 100vw;
+  height: 30vh;
+}
+
+.navbar {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+  list-style-type: none;
+}
+
+.nav-links-container {
+  margin-right: 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: rgba(100, 100, 100, 0.5)
+}
+
+.project-search {
+  border: none
+}
