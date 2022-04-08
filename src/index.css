@@ -68,20 +68,47 @@ Variables
 }
 
 .navbar {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   list-style-type: none;
 }
 
 .nav-links-container {
-  margin-right: 15px;
+  margin-right: 30px;
   text-decoration: none;
   list-style-type: none;
 }
 
 .nav-link {
-  color: rgba(100, 100, 100, 0.5)
+  color: #242E4C;
 }
 
 .project-search {
-  border: none
+  border: none;
+}
+
+.tile {
+  height: 300px;
+  width: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 20px;
+  transition: 0.25s linear
+}
+
+.tile:hover {
+  scale: 1.25;
+}
+
+.description {
+  display: none;
+}
+
+.img-container {
+  height: 80%;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: auto;
 }

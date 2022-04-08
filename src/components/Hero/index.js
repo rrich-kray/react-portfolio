@@ -29,7 +29,8 @@ const Hero = (props) => {
       </div>
       <div className="hero-body d-flex justify-content-around align-items-center w-100 h-100">
         <div className="project-search d-flex justify-self-start">
-          <input type="text"></input>
+          <label for="search">Search</label>
+          <input type="text" name="search"></input>
         </div>
         <div>Test</div>
       </div>
