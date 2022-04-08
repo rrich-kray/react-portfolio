@@ -1,15 +1,17 @@
 import React from "react";
-import Projects from "../Projects";
+import data from "./data";
 
-const Projects = (props) => {
+const Projects = ({ data }) => {
   return (
-    <section className="projects">
-      {Projects.map((project) => (
+    <>
+      {data.map((project) => (
         <div>
           <h1>{project.name}</h1>
           <p>{project.description}</p>
         </div>
       ))}
-    </section>
+    </>
   );
 };
+
+export default Projects;
