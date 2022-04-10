@@ -2,11 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="panel-container">
-        <div className="left-panel"></div>
-        <div className="right-panel"></div>
-      </div>
+    <div className="footer d-flex flex-column justify-content-center align-items-center">
+      <h2>❤️ Made with love by Code Monkey</h2>
+      <div> &copy; 2022 Code Monkey, inc.</div>
     </div>
   );
 };
