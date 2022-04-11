@@ -17,7 +17,8 @@ import data from "./components/Projects/data";
 const App = () => {
   const sections = ["projects", "about me", "contact"];
   const [currentSection, setCurrentSection] = useState(sections[0]);
-  const [loading, setLoading] = useState(true);
+  const [isSearchActive, setSearch] = useState(false);
+  // const [loading, setLoading] = useState(true);
 
   const renderSection = () => {
     let activeSection;
@@ -34,6 +35,8 @@ const App = () => {
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
         sections={sections}
+        isSearchActive={isSearchActive}
+        setSearch={setSearch}
       />
       <div className="main-section container-fluid">{renderSection()}</div>
       <Footer />

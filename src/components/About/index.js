@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div className="about-container d-flex w-100 justify-content-center align-items-center">
-      <div className="left-panel d-flex">
-        <div className="image-container justify-content-center align-items-center w-50">
+      <div className="left-panel justify-content-center align-items-center d-flex">
+        <div className="pfp-container">
           <img
             src={require("./avatar.svg").default}
             className="pfp"
@@ -12,8 +12,8 @@ const About = () => {
           ></img>
         </div>
       </div>
-      <div className="right-panel w-50">
-        <div className="bio-container justify-content-center align-items-center">
+      <div className="right-panel d-flex justify-content-center align-items-center">
+        <div className="bio-container">
           <h1 className="about-text-container">About Me</h1>
           <p>
             Veniam ex reprehenderit consequat ex quis ad quis aliquip. Voluptate
