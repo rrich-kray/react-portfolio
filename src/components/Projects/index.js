@@ -15,9 +15,9 @@ const Projects = ({ data }) => {
     }
   };
   return (
-    <div className="tile-container row justify-content-center">
+    <div className="tile-container">
       {data.map((project) => (
-        <div className="tile col-3 m-3" key={project.name}>
+        <div className="tile m-3" key={project.name}>
           <div className="image-container">
             <img src={project.backgroundImage} alt="project-screenshot" />
           </div>
