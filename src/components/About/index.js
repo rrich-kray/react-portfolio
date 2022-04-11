@@ -14,8 +14,10 @@ const About = () => {
       </div>
       <div className="right-panel d-flex justify-content-center align-items-center">
         <div className="bio-container">
-          <h1 className="about-text-container">About Me</h1>
-          <p>
+          <h1 data-testid="h1test" className="about-text-container">
+            About Me
+          </h1>
+          <p data-testid="paragraph-test">
             Veniam ex reprehenderit consequat ex quis ad quis aliquip. Voluptate
             sunt esse et eiusmod ut ullamco amet. Laboris anim ullamco cupidatat
             laborum do consequat tempor sint occaecat ad. Pariatur ut qui esse
