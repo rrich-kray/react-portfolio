@@ -64,7 +64,14 @@ Variables
 
 .hero {
   width: 100vw;
-  height: 30vh;
+  height: 40vh;
+  /* background-image: url('./components/Hero/bg1.jpg') */
+}
+
+.hero > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover
 }
 
 .navbar {
@@ -82,10 +89,36 @@ Variables
   color: #242E4C;
 }
 
-.nav-btn {
-  background: transparent;
-  border: none;
-  margin: 10px
+.nav-btn{
+  display:inline-block;
+  padding:0.5em 1.5em;
+  border:0.16em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Helvetica',sans-serif;
+  font-weight:500;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.30s;
+}
+
+  .nav-btn:hover{
+  color: gold;
+  border-color:#DDDDDD;
+}
+
+  .nav-btn:active{
+  color:#9c9494;
+  border-color:#BBBBBB;
+}
+
+  @media all and (max-width:30em){
+  .nav-btn{
+  display:block;
+  margin:0.4em auto;
+  }
 }
 
 .project-search {
@@ -190,7 +223,7 @@ Variables
 
 .footer {
   margin-top: 20px;
-  height: 20vh;
+  padding: 50px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 

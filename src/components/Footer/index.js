@@ -10,6 +10,22 @@ const Footer = () => {
         alt="monkey-icon"
       />
       <div> &copy; 2022 Code Monkey, inc.</div>
+      <div className="links d-flex justify-content-center align-items-center">
+        <a href="https://github.com/rrich-kray/" alt="github-link">
+          <img
+            src={require("../Projects/gh.svg").default}
+            alt="gh-icon"
+            style={{ height: "55px", padding: "10px;" }}
+          ></img>
+        </a>
+        <a href="https://www.linkedin.com/in/ryankray/" alt="linkedIn-link">
+          <img
+            src={require("./linkedin.svg").default}
+            alt="linkedIn-icon"
+            style={{ height: "75px", padding: "10px" }}
+          ></img>
+        </a>
+      </div>
     </div>
   );
 };

@@ -20,6 +20,8 @@ This project is a react-only version of my portfolio. My non-React portfolio (bu
 
 https://rrich-kray.github.io/project-portfolio/
 
+I consider this an MVP build, and plan to add several new features in the near future, including Modals that appear when a project is selected. These will provide additional project information, including a description and additional screenshots.
+
 ## How it Works
 
 The application was built using React, and consists of five components, including:
@@ -29,6 +31,7 @@ The application was built using React, and consists of five components, includin
 - Footer
 - Hero
 - Projects
+- Resume
 
 The Footer and Hero sections are displayed on all pages. The header, shown below,
 
