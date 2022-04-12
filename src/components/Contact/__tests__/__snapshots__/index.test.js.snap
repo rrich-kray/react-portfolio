@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders Component matches DOM structure 1`] = `
+<DocumentFragment>
+  <div
+    class="contact"
+  >
+    <div
+      class="panel-container d-flex flex-column justify-content-center align-items-center"
+    >
+      <div
+        class="left-panel d-flex justify-content-center align-items-center w-50"
+      >
+        <h1>
+          Contact
+        </h1>
+      </div>
+      <div
+        class="right-panel d-flex flex-column justify-content-center align-items-center w-50"
+      >
+        <h5>
+          Email: rrich.kray.93@gmail.com
+        </h5>
+        <h5>
+          GitHub: https://rrich-kray.github.io
+        </h5>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
