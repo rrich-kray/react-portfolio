@@ -1,6 +1,6 @@
 # React Portfolio
 
-This repository contains the source code for my React Portfolio project.
+This repository contains the source code for my React Portfolio.
 
 ## Table of Contents
 
@@ -14,11 +14,41 @@ This repository contains the source code for my React Portfolio project.
 
 ## Description
 
+![main screenshot](./public/assets/images/screen1.png)
+
+This project is a react-only version of my portfolio. My non-React portfolio (built using only HTML, CSS and JavaScript) can be found here:
+
+https://rrich-kray.github.io/project-portfolio/
+
 ## How it Works
+
+The application was built using React, and consists of five components, including:
+
+- About
+- Contact
+- Footer
+- Hero
+- Projects
+
+The Footer and Hero sections are displayed on all pages. The header, shown below,
+
+![main screenshot](./public/assets/images/screen1.png)
+
+contains links that, when selected, call function closers that change a state within the parent component, which in turn renders a different component of the website.
+
+For example, selecting the "About" link within the navigation bar will render the following page:
+
+![main screenshot](./public/assets/images/screen1.png)
+
+Similiarly, selecting the "Contact" link will render the Contact section:
+
+![main screenshot](./public/assets/images/screen1.png)
 
 ## Installation
 
-No installation is required to access the website. Simply follow the link below:
+No installation is required to access the website. Simply follow the link below to access and use the application:
+
+https://rrich-kray.github.io/react-portfolio/
 
 ## Usage
 
@@ -34,7 +64,9 @@ Please follow the guidelines below if you wish to contribute to this project.
 
 ## Credits
 
-The design of my portfolio page was based on the following website
+The design of my portfolio page was based on the following website:
+
+https://www.uidesigndaily.com/
 
 ## Contact
 
