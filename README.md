@@ -20,7 +20,7 @@ This project is a react-only version of my portfolio. My non-React portfolio (bu
 
 https://rrich-kray.github.io/project-portfolio/
 
-I consider this an MVP build, and plan to add several new features in the near future, including Modals that appear when a project is selected. These will provide additional project information, including a description and additional screenshots.
+I consider this an MVP build, and plan to add several new features in the near future, including Modals that appear when a project is selected. These will provide additional project information, including a description and screenshots.
 
 ## How it Works
 
