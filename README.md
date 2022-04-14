@@ -54,6 +54,8 @@ Selecting "CONTACT" renders a component that allows the user to submit a message
 
 Lastly, selecting "RESUME" renders a component that displays my aptitudes as well as a link to my resume:
 
+![main screenshot](./public/assets/images/screen4.png)
+
 ## Installation
 
 No installation is required to access the website. Simply follow the link below to access and use the application:
