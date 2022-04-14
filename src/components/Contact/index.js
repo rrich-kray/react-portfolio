@@ -44,7 +44,7 @@ const Contact = () => {
         />
       </form>
       <button
-        className="submit-btn"
+        className="submit-btn nav-btn"
         onClick={handleFormSubmit}
         onChange={handleInputChange}
       >
