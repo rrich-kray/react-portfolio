@@ -60,6 +60,7 @@ Variables
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*
@@ -282,4 +283,34 @@ About
 .footer-icon {
   height: 100px;
   width: 100px;
+}
+
+/*
+===================
+Resume
+===================
+*/
+
+.brand-statement {
+  text-align: center;
+  margin: 30px 200px;
+  margin-top: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  display: flex
+}
+
+.skill {
+  margin-right: 10px;
+}
+
+.resume-container {
+  margin: 30px 0;
+}
+
+.resume-container > a {
+  text-decoration: none;
+  font-size: 2rem;
 }

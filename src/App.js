@@ -13,9 +13,10 @@ import Projects from "./components/Projects/index";
 import About from "./components/About/index";
 import Contact from "./components/Contact/index";
 import data from "./components/Projects/data";
+import Resume from "./components/Resume/index";
 
 const App = () => {
-  const sections = ["projects", "about me", "contact"];
+  const sections = ["projects", "about me", "contact", "resume"];
   const [currentSection, setCurrentSection] = useState(sections[0]);
   const [isSearchActive, setSearch] = useState(false);
   // const [loading, setLoading] = useState(true);
@@ -25,6 +26,8 @@ const App = () => {
     if (currentSection === "projects") activeSection = <Projects data={data} />;
     if (currentSection === "about me") activeSection = <About />;
     if (currentSection === "contact") activeSection = <Contact />;
+    if (currentSection === "resume") activeSection = <Resume />;
+
     return activeSection;
   };
 
