@@ -4,13 +4,13 @@ This repository contains the source code for my React Portfolio.
 
 ## Table of Contents
 
-[description](#description)  
-[installation](#installation)  
-[usage](#usage)  
-[credits](#credits)  
-[contributing](#contributing)
-[contact](#contact)
-[license](#license)
+[description](#Description)  
+[installation](#Installation)  
+[usage](#Usage)  
+[credits](#Credits)  
+[contributing](#Contributing)
+[contact](#Contact)
+[license](#License)
 
 ## Description
 
@@ -20,30 +20,35 @@ This project is a react-only version of my portfolio. My non-React portfolio (bu
 
 https://rrich-kray.github.io/project-portfolio/
 
-I consider this an MVP build, and plan to add several new features in the near future, including Modals that appear when a project is selected. These will provide additional project information, including a description and screenshots.
+I consider this an MVP build, and plan to add several new features in the near future, including modals that appear when a project is selected. These will provide additional project information, including a description and screenshots. I also intend to add project search functionality.
+
+## Features
+
+In its current build, this project allows users to view:
+
+- A protfolio of my projects
+- An about me component containing a bio and profile picture
+- A component which allows the user to send me a message using a react form
+- A resume component, which contains a brand statement, a list of technical competencies, and a link to my resume
 
 ## How it Works
 
-The application was built using React, and consists of five components, including:
+The application was built using React, and consists of the following five components:
 
-- About
-- Contact
-- Footer
-- Hero
-- Projects
-- Resume
+- An About component
+- A Contact component
+- A Footer component
+- A Hero Component
+- A Projects Component
+- A Resume Component
 
 The Footer and Hero sections are displayed on all pages. The header, shown below,
 
 ![main screenshot](./public/assets/images/screen1.png)
 
-contains links that, when selected, call function closers that change a state within the parent component, which in turn renders a different component of the website.
+contains links that, when selected, call function closers that change a state within its parent component, which in turn renders the selected component of the website.
 
 For example, selecting the "About" link within the navigation bar will render the following page:
-
-![main screenshot](./public/assets/images/screen1.png)
-
-Similiarly, selecting the "Contact" link will render the Contact section:
 
 ![main screenshot](./public/assets/images/screen1.png)
 
@@ -52,8 +57,6 @@ Similiarly, selecting the "Contact" link will render the Contact section:
 No installation is required to access the website. Simply follow the link below to access and use the application:
 
 https://rrich-kray.github.io/react-portfolio/
-
-## Usage
 
 ## Contributing
 
@@ -73,9 +76,13 @@ https://www.uidesigndaily.com/
 
 ## Contact
 
-Find my GitHub profile by following the link below:
+GitHub profile:
 
 https://github.com/rrich-kray/
+
+Email inquiries:
+
+rrich.kray.93@gmail.com
 
 ## License
 

@@ -16,7 +16,8 @@ const Contact = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (!email || !username || !message) {
-      setErrorMessage("You cannot leave this field blank");
+      setErrorMessage("You cannot leave any fields blank");
+      return;
     }
     setEmail("");
     setMessage("");
