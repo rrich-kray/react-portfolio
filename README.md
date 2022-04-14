@@ -8,7 +8,7 @@ This repository contains the source code for my React Portfolio.
 [Features](#Features)  
 [How It Works](#How-It-Works)  
 [Installation](#Installation)  
-[Contributing](#Contributing)
+[Contributing](#Contributing)  
 [Credits](#Credits)  
 [Contact](#Contact)  
 [License](#License)
