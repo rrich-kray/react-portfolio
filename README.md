@@ -33,7 +33,7 @@ In its current build, this project allows users to view:
 
 ## How it Works
 
-The application was built using React, and consists of the following five components:
+The application was built using React, and consists of the following:
 
 - An About component
 - A Contact component
@@ -42,15 +42,17 @@ The application was built using React, and consists of the following five compon
 - A Projects Component
 - A Resume Component
 
-The Footer and Hero sections are displayed on all pages. The header, shown below,
+The Footer and Hero sections are displayed on all pages. The header contains links that, when selected, call function closers that change a state within its parent component, which in turn renders the selected component of the website.
 
-![main screenshot](./public/assets/images/screen1.png)
+For example, selecting the "ABOUT ME" link within the navigation bar will render the following page:
 
-contains links that, when selected, call function closers that change a state within its parent component, which in turn renders the selected component of the website.
+![main screenshot](./public/assets/images/screen2.png)
 
-For example, selecting the "About" link within the navigation bar will render the following page:
+Selecting "CONTACT" renders a component that allows the user to submit a message using the form shown below:
 
-![main screenshot](./public/assets/images/screen1.png)
+![main screenshot](./public/assets/images/screen3.png)
+
+Lastly, selecting "RESUME" renders a component that displays my aptitudes as well as a link to my resume:
 
 ## Installation
 
