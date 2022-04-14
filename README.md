@@ -4,8 +4,8 @@ This repository contains the source code for my React Portfolio.
 
 ## Table of Contents
 
-[Description](#Description)
-[Features](#Features)
+[Description](#Description)  
+[Features](#Features)  
 [How It Works](#How-It-Works)  
 [Installation](#Installation)  
 [Contributing](#Contributing)
