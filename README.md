@@ -9,7 +9,7 @@ This repository contains the source code for my React Portfolio.
 [Usage](#Usage)  
 [Credits](#Credits)  
 [Contributing](#Contributing)
-[Contact](#Contact)
+[Contact](#Contact)  
 [License](#License)
 
 ## Description
