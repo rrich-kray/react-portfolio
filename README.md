@@ -28,7 +28,7 @@ In its current build, this project allows users to view:
 
 - A protfolio of my projects
 - An about me component containing a bio and profile picture
-- A component which allows the user to send me a message using a react form
+- A component which allows the user to send me a message using a React form
 - A resume component, which contains a brand statement, a list of technical competencies, and a link to my resume
 
 ## How it Works
