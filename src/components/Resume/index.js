@@ -23,7 +23,8 @@ const Resume = () => {
   Full-stack web developer leveraging background in business to provide unique perspectives on how to solve real-world problems. Earned a certificate in Full-Stack Web Development from the CWRU Coding Boot Camp. I am a passionate, detail-oriented coder with experience leveraging both front and back-end technologies. I built a MySQL database to query and display employee information. I developed a Sequelize relational database to house data for the front-end of a fictional Ecommerce website. I am avidly searching for a role and firm conducive to the establishment of a long-term, fulfilling career as a developer.
   `;
 
-  const resumeLink = `"https://docs.google.com/document/d/1gzlYNrQPsWXRgWO9sgm8WkaF6DgDphDc/edit?usp=sharing&ouid=108149335393344460606&rtpof=true&sd=true"`;
+  const resumeLink =
+    "https://docs.google.com/document/d/1gzlYNrQPsWXRgWO9sgm8WkaF6DgDphDc/edit?usp=sharing&ouid=108149335393344460606&rtpof=true&sd=true";
 
   return (
     <div className="resume-container">
@@ -48,7 +49,13 @@ const Resume = () => {
         </ul>
       </div>
       <div className="resume-container d-flex justify-content-center">
-        <a href={resumeLink} alt="resume-link" className="resume-link">
+        <a
+          href={resumeLink}
+          alt="resume-link"
+          className="resume-link"
+          target="_blank"
+          rel="noreferrer"
+        >
           Resume
         </a>
       </div>

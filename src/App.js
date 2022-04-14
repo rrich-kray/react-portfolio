@@ -6,7 +6,7 @@ I - Interface Segregation Principle
 D - Dependency Inversion Principle
 */
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Hero from "./components/Hero/index";
 import Footer from "./components/Footer/index";
 import Projects from "./components/Projects/index";
@@ -30,6 +30,10 @@ const App = () => {
 
     return activeSection;
   };
+
+  useEffect(() => {
+    document.title = currentSection[0].toUpperCase() + currentSection.slice(1);
+  });
 
   return (
     // can only return one element, but that element can have child elements

@@ -5,6 +5,7 @@ const Contact = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     if (e.target.name === "email") setEmail(e.target.value);
@@ -14,7 +15,9 @@ const Contact = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    setUsername("");
+    if (!email || !username || !message) {
+      setErrorMessage("You cannot leave this field blank");
+    }
     setEmail("");
     setMessage("");
   };
@@ -50,6 +53,11 @@ const Contact = () => {
       >
         Submit Message
       </button>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
   );
 };
