@@ -70,7 +70,7 @@ Hero
 
 .hero {
   width: 100vw;
-  height: 50vh;
+  height: 30vh;
   /* background-image: url('./components/Hero/bg1.jpg') */
 }
 
@@ -83,6 +83,11 @@ Hero
 .navbar {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   list-style-type: none;
+}
+
+.hero-body {
+  height: 80%;
+  width: 100%;
 }
 
 .nav-links-container {
