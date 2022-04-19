@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
 
 const Contact = () => {
   // when input content is changed, handleInputChange is invoked, which
@@ -15,10 +16,12 @@ const Contact = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (!email || !username || !message) {
-      setErrorMessage("You cannot leave any fields blank");
+    if (!email || !username || !message || !validateEmail(email)) {
+      setErrorMessage("Invalid input detected");
       return;
     }
+
+    setUsername("");
     setEmail("");
     setMessage("");
   };

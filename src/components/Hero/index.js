@@ -8,32 +8,32 @@ const Hero = (props) => {
     setSearch,
     sections,
   } = props;
-  const searchDisplayToggle = () => {
-    if (isSearchActive === true) {
-      return (
-        <div className="hero-body d-flex justify-content-around align-items-center w-100 h-100">
-          <div className="project-search d-flex justify-self-start">
-            <label for="search">Search</label>
-            <input type="text" name="search" className="search"></input>
-          </div>
-        </div>
-      );
-    }
-  };
-  const searchBtnDisplayToggle = () => {
-    if (currentSection === "projects") {
-      return (
-        <li>
-          <button
-            className="nav-btn"
-            onClick={() => setSearch(!isSearchActive)}
-          >
-            Search
-          </button>
-        </li>
-      );
-    }
-  };
+  // const searchDisplayToggle = () => {
+  //   if (isSearchActive === true) {
+  //     return (
+  //       <div className="hero-body d-flex justify-content-around align-items-center w-100 h-100">
+  //         <div className="project-search d-flex justify-self-start">
+  //           <label for="search">Search</label>
+  //           <input type="text" name="search" className="search"></input>
+  //         </div>
+  //       </div>
+  //     );
+  //   }
+  // };
+  // const searchBtnDisplayToggle = () => {
+  //   if (currentSection === "projects") {
+  //     return (
+  //       <li>
+  //         <button
+  //           className="nav-btn"
+  //           onClick={() => setSearch(!isSearchActive)}
+  //         >
+  //           Search
+  //         </button>
+  //       </li>
+  //     );
+  //   }
+  // };
 
   return (
     <div className="hero d-flex flex-column">
@@ -64,10 +64,10 @@ const Hero = (props) => {
               </button>
             </li>
           ))}
-          {searchBtnDisplayToggle()}
+          {/* {searchBtnDisplayToggle()} */}
         </ul>
       </div>
-      {searchDisplayToggle()}
+      {/* {searchDisplayToggle()} */}
     </div>
   );
 };
