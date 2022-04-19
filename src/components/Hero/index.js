@@ -8,6 +8,7 @@ const Hero = (props) => {
     setSearch,
     sections,
   } = props;
+
   // const searchDisplayToggle = () => {
   //   if (isSearchActive === true) {
   //     return (
