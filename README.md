@@ -21,7 +21,7 @@ This project is a react-only version of my portfolio. My non-React portfolio (bu
 
 https://rrich-kray.github.io/project-portfolio/
 
-I consider this an MVP build, and plan to add several new features in the near future, including modals that appear when a project is selected. These will provide additional project information, including a description and screenshots. I also intend to add project search functionality.
+I consider this an MVP build, and plan to add several new features in the near future, including modals that appear when a project is selected. These will provide additional project information, including a description and screenshots. I would also like to implement global state management using Redux to allow the user to change the website's theme. I also intend to add project search functionality.
 
 ## Features
 
@@ -45,11 +45,7 @@ The application was built using React, and consists of the following:
 
 The Footer and Hero sections are displayed on all pages. The header contains links that, when selected, call function closers that change a state within its parent component, which in turn renders the selected component of the website.
 
-For example, selecting the "ABOUT ME" link within the navigation bar will render the following page:
-
-![main screenshot](./public/assets/images/screen2.png)
-
-Selecting "CONTACT" renders a component that allows the user to submit a message using the form shown below:
+For example, selecting "CONTACT" renders a component that allows the user to submit a message using the form shown below:
 
 ![main screenshot](./public/assets/images/screen3.png)
 
@@ -62,16 +58,6 @@ Lastly, selecting "RESUME" renders a component that displays my aptitudes as wel
 No installation is required to access the website. Simply follow the link below to access and use the application:
 
 https://rrich-kray.github.io/react-portfolio/
-
-## Contributing
-
-Please follow the guidelines below if you wish to contribute to this project.
-
--Fork the repo on GitHub  
--Clone the project to your own machine  
--Commit changes to your own branch  
--Push your work back up to your fork  
--Submit a Pull request so that I can review your changes
 
 ## Credits
 

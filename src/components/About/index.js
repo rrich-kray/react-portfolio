@@ -23,8 +23,8 @@ const About = () => {
             research. More importantly, it helped me realize my passion for
             software development and motivated my departure from the industry
             nearly a year ago. Since then, I have built dozens of projects
-            leveraging technologies across the entire MERN stack, and I continue
-            to be motivated by the prospect of developing unique solutions to
+            leveraging technologies across the entire MERN stack, and I am
+            driven forward by the prospect of developing unique solutions to
             unique problems.
           </p>
         </div>
