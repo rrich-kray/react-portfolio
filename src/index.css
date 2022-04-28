@@ -292,6 +292,10 @@ About
   text-align: center;
 }
 
+.about-text-container {
+  text-align: center
+}
+
 .pfp {
   height: 400px;
   width: auto;
@@ -314,11 +318,26 @@ About
 Resume
 ===================
 */
+.brand-header {
+  padding-top: 20px;
+}
 
 .brand-statement {
   text-align: center;
-  margin: 30px 200px;
+  margin: 30px 150px;
   margin-top: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+}
+
+.skills-header {
+  padding-top: 20px;;
+}
+
+.skills-container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 30px 150px;
+  padding: 10px;
 }
 
 .skills-list {
@@ -332,6 +351,7 @@ Resume
 
 .resume-container {
   margin: 30px 0;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 .resume-container > a {
