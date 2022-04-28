@@ -5,11 +5,7 @@ const About = () => {
     <div className="about-container d-flex w-100 justify-content-center align-items-center">
       <div className="left-panel justify-content-center align-items-center d-flex">
         <div className="pfp-container">
-          <img
-            src={require("./avatar.svg").default}
-            className="pfp"
-            alt="pfp"
-          ></img>
+          <img src={require("./avatar2.jpg")} className="pfp" alt="pfp"></img>
         </div>
       </div>
       <div className="right-panel d-flex justify-content-center align-items-center">
