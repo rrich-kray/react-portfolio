@@ -105,4 +105,13 @@ export default [
     backgroundImage:
       "https://raw.githubusercontent.com/perfect-perfect/coders-cave/main/public/cc.JPG",
   },
+  {
+    id: 12,
+    name: "Shopify 2.0",
+    ghRepository: "https://github.com/rrich-kray/shopify-2.0",
+    deploymentLink: "",
+    description: "Website for aspiring merchants.",
+    backgroundImage:
+      "https://raw.githubusercontent.com/rrich-kray/shopify-2.0/main/assets/images/screen3.png",
+  },
 ];
