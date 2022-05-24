@@ -16,16 +16,15 @@ const About = () => {
           <p data-testid="paragraph-test" className="about-text-container">
             My name is Ryan, and I am currently a student attending the Case
             Western Reserve Full Stack Web Development Bootcamp. My career began
-            in equity research, where I produced research for institional
-            investor clients such as pension funds. Here, I frequently used
-            Python to build and organize large proprietary datasets that often
-            served as the bedrock for differentiated, revenue-generating
-            research. More importantly, it helped me realize my passion for
-            software development and motivated my departure from the industry
-            nearly a year ago. Since then, I have built dozens of projects
-            leveraging technologies across the entire MERN stack, and I am
-            driven forward by the prospect of developing unique solutions to
-            unique problems.
+            in equity research, where I produced research for institutional
+            investor clients. Here, I frequently used Python to build and
+            organize large proprietary datasets that often served as the bedrock
+            for differentiated, revenue-generating research. More importantly,
+            it helped me realize my passion for software development and
+            motivated my departure from the industry nearly a year ago. Since
+            then, I have built dozens of projects leveraging technologies across
+            the entire MERN stack, and I am driven forward by the prospect of
+            developing unique solutions to unique problems.
           </p>
         </div>
       </div>
