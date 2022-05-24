@@ -14,9 +14,9 @@ const About = () => {
             About Me
           </h1>
           <p data-testid="paragraph-test" className="about-text-container">
-            My name is Ryan, and I am currently a student attending the Case
-            Western Reserve Full Stack Web Development Bootcamp. My career began
-            in equity research, where I produced research for institutional
+            My name is Ryan, and I am a recent graduate of the Case Western
+            Reserve Full Stack Web Development Bootcamp. My career began in
+            equity research, where I produced research for institutional
             investor clients. Here, I frequently used Python to build and
             organize large proprietary datasets that often served as the bedrock
             for differentiated, revenue-generating research. More importantly,
