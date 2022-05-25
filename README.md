@@ -59,6 +59,10 @@ No installation is required to access the website. Simply follow the link below 
 
 https://rrich-kray.github.io/react-portfolio/
 
+Alternatively, you can find the portfolio on Heorku by following the link below:
+
+https://react-portfolio-v1-rrich-kray.herokuapp.com/
+
 ## Credits
 
 The design of my portfolio page was based on the following website:
