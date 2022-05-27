@@ -16,7 +16,7 @@ import data from "./components/Projects/data";
 import Resume from "./components/Resume/index";
 
 const App = () => {
-  const sections = ["projects", "about me", "contact", "resume"];
+  const sections = ["projects", "about me", "resume"];
   const [currentSection, setCurrentSection] = useState(sections[0]);
   const [isSearchActive, setSearch] = useState(false);
   // const [loading, setLoading] = useState(true);

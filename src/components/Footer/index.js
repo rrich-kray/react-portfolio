@@ -7,9 +7,13 @@ const Footer = () => {
       <img
         src={require("../Hero/monkey.svg").default}
         className="footer-icon"
+        style={{ marginBottom: "10px" }}
         alt="monkey-icon"
       />
-      <div> &copy; 2022 Code Monkey, inc.</div>
+      <div style={{ marginBottom: "10px" }}> &copy; 2022 Code Monkey, inc.</div>
+      <span style={{ fontWeight: "bold", fontSize: "25px" }}>
+        Email: rrich.kray.93@gmail.com
+      </span>
       <div className="links d-flex justify-content-center align-items-center">
         <a href="https://github.com/rrich-kray/" alt="github-link">
           <img
