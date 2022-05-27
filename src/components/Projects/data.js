@@ -107,9 +107,9 @@ export default [
   },
   {
     id: 12,
-    name: "Shopify 2.0",
+    name: "Shopify Clone",
     ghRepository: "https://github.com/rrich-kray/shopify-2.0",
-    deploymentLink: "",
+    deploymentLink: "https://shopify-clone-rrich-kray.herokuapp.com/",
     description: "Website for aspiring merchants.",
     backgroundImage:
       "https://raw.githubusercontent.com/rrich-kray/shopify-2.0/main/assets/images/screen3.png",
