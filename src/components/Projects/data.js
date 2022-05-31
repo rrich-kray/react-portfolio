@@ -151,4 +151,13 @@ export default [
     backgroundImage:
       "https://raw.githubusercontent.com/rrich-kray/github-user-search/main/src/assets/screen1.png",
   },
+  {
+    id: 17,
+    name: "React Landing Page",
+    ghRepository: "https://github.com/rrich-kray/simple-react-site",
+    deploymentLink: "https://simple-react-site-rrich-kray.herokuapp.com/",
+    description: "Landing page built with React",
+    backgroundImage:
+      "https://github.com/rrich-kray/simple-react-site/blob/main/src/assets/images/screen.png?raw=true",
+  },
 ];
