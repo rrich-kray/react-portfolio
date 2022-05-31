@@ -30,16 +30,16 @@ export default [
     backgroundImage:
       "https://raw.githubusercontent.com/rrich-kray/weather-dashboard/main/assets/images/screen1.png",
   },
-  {
-    id: 4,
-    name: "Professional README Generator",
-    ghRepository: "https://github.com/rrich-kray/professional-readme-generator",
-    deploymentLink: "",
-    description:
-      "Programmatically generates professional README files using Node.js.",
-    backgroundImage:
-      "https://raw.githubusercontent.com/rrich-kray/professional-readme-generator/main/assets/images/screen1.png",
-  },
+  // {
+  //   id: 4,
+  //   name: "Professional README Generator",
+  //   ghRepository: "https://github.com/rrich-kray/professional-readme-generator",
+  //   deploymentLink: "",
+  //   description:
+  //     "Programmatically generates professional README files using Node.js.",
+  //   backgroundImage:
+  //     "https://raw.githubusercontent.com/rrich-kray/professional-readme-generator/main/assets/images/screen1.png",
+  // },
   {
     id: 5,
     name: "Taskinator",
@@ -96,15 +96,15 @@ export default [
     backgroundImage:
       "https://raw.githubusercontent.com/rrich-kray/ecommerce-product-database/master/assets/images/screen1.png",
   },
-  {
-    id: 11,
-    name: "Coders Cave",
-    ghRepository: "https://github.com/perfect-perfect/coders-cave",
-    deploymentLink: "",
-    description: "Message board for coders.",
-    backgroundImage:
-      "https://raw.githubusercontent.com/perfect-perfect/coders-cave/main/public/cc.JPG",
-  },
+  // {
+  //   id: 11,
+  //   name: "Coders Cave",
+  //   ghRepository: "https://github.com/perfect-perfect/coders-cave",
+  //   deploymentLink: "",
+  //   description: "Message board for coders.",
+  //   backgroundImage:
+  //     "https://raw.githubusercontent.com/perfect-perfect/coders-cave/main/public/cc.JPG",
+  // },
   {
     id: 12,
     name: "Shopify Clone",
@@ -113,5 +113,42 @@ export default [
     description: "Website for aspiring merchants.",
     backgroundImage:
       "https://raw.githubusercontent.com/rrich-kray/shopify-2.0/main/assets/images/screen3.png",
+  },
+  {
+    id: 13,
+    name: "Advice Generator",
+    ghRepository: "https://github.com/rrich-kray/advice-generator",
+    deploymentLink: "https://advice-generator-rrich-kray.herokuapp.com/",
+    description:
+      "Simple random quote generator that utilizes the Advice Slip API",
+    backgroundImage:
+      "https://raw.githubusercontent.com/rrich-kray/advice-generator/main/src/images/advice-gen.png",
+  },
+  {
+    id: 14,
+    name: "Expenses Chart",
+    ghRepository: "https://github.com/rrich-kray/expenses-chart",
+    deploymentLink: "https://expenses-chart-rrich-kray.herokuapp.com/",
+    description: "Simple expenses chart",
+    backgroundImage:
+      "https://raw.githubusercontent.com/rrich-kray/expenses-chart/main/src/images/screen1.png",
+  },
+  {
+    id: 15,
+    name: "Dropdown Challenge",
+    ghRepository: "https://github.com/rrich-kray/dropdown-landing",
+    deploymentLink: "https://dropdown-challenge-rrich-kray.herokuapp.com/",
+    description: "Simple landing page with dropdown navigation menus",
+    backgroundImage:
+      "https://raw.githubusercontent.com/rrich-kray/dropdown-challenge/main/src/images/screen1.png",
+  },
+  {
+    id: 16,
+    name: "GitHub User Search",
+    ghRepository: "https://github.com/rrich-kray/dropdown-landing",
+    deploymentLink: "https://dropdown-challenge-rrich-kray.herokuapp.com/",
+    description: "Simple application that queries GitHub's User API",
+    backgroundImage:
+      "https://raw.githubusercontent.com/rrich-kray/github-user-search/main/src/assets/screen1.png",
   },
 ];
