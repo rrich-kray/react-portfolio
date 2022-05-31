@@ -145,8 +145,8 @@ export default [
   {
     id: 16,
     name: "GitHub User Search",
-    ghRepository: "https://github.com/rrich-kray/dropdown-landing",
-    deploymentLink: "https://dropdown-challenge-rrich-kray.herokuapp.com/",
+    ghRepository: "https://github.com/rrich-kray/github-user-search",
+    deploymentLink: "https://github-search-rrich-kray.herokuapp.com/",
     description: "Simple application that queries GitHub's User API",
     backgroundImage:
       "https://raw.githubusercontent.com/rrich-kray/github-user-search/main/src/assets/screen1.png",
